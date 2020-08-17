@@ -5508,6 +5508,11 @@ div#searchcontainer.opensearch form {
             relatedTitleText: &quot;<data:messages.youMayLikeThesePosts/>&quot;,
         }; 
         </script> related posts end <div id='ms-matched-content'/>-->
+		<div class='related-post' expr:id='&quot;related-post-&quot; + data:post.id'/>
+<ins class='adsbygoogle' data-ad-client='ca-pub-2660611061616393' data-ad-format='autorelaxed' data-ad-slot='5150000506' style='display:block'/>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </b:includable>
 
     <b:includable id='relatedPostScript'>
@@ -6718,7 +6723,7 @@ div#searchcontainer.opensearch form {
 
         <b:comment><!-- widget header --></b:comment>
         <b:section class='header' id='header' maxwidgets='1' name='Header' showaddelement='no'>
-          <b:widget id='Header1' locked='true' title='BROJAMZ COM (Header)' type='Header' visible='true'>
+          <b:widget id='Header1' locked='true' title='BROJAMZ COM (Header)' type='Header' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='displayUrl'>http://1.bp.blogspot.com/-7Pxlr3lWDP0/XxATJDZK_MI/AAAAAAAAFNY/RErSZlizDZ8_3yHLyF1QyCkS8yvuXt6-gCK4BGAYYCw/s200/header-brojamz.png</b:widget-setting>
               <b:widget-setting name='displayHeight'>59</b:widget-setting>
@@ -6847,7 +6852,15 @@ div#searchcontainer.opensearch form {
         <b:section class='top-widget' id='top-widget' maxwidgets='1' name='Widget Atas Posting' showaddelement='no'>
           <b:widget id='HTML73' locked='true' title='Widget Atas Posting' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'/>
+              <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
+     style=&quot;display:block&quot;
+     data-ad-client=&quot;ca-pub-2660611061616393&quot;
+     data-ad-slot=&quot;7551614559&quot;
+     data-ad-format=&quot;horizontal&quot;
+     data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
         <b:if cond='data:content'>
@@ -7009,26 +7022,32 @@ div#searchcontainer.opensearch form {
         </b:if>
     </b:includable>
           </b:widget>
-          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' visible='true'>
+          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#ff9900</b:widget-setting>
+              <b:widget-setting name='commentLabel'>Post a Comment</b:widget-setting>
               <b:widget-setting name='showShareButtons'>false</b:widget-setting>
-              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='showAuthor'>true</b:widget-setting>
               <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
-              <b:widget-setting name='style.linkcolor'>#fafafa</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-              <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+              <b:widget-setting name='timestampLabel'>pada tanggal</b:widget-setting>
+              <b:widget-setting name='reactionsLabel'>Post Navi</b:widget-setting>
               <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-              <b:widget-setting name='showLabels'>true</b:widget-setting>
-              <b:widget-setting name='showLocation'>true</b:widget-setting>
+              <b:widget-setting name='showLocation'>false</b:widget-setting>
               <b:widget-setting name='showTimestamp'>true</b:widget-setting>
               <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-              <b:widget-setting name='showBacklinks'>false</b:widget-setting>
               <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+              <b:widget-setting name='backlinksLabel'>You might like</b:widget-setting>
+              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ff9900</b:widget-setting>
+              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='postLocationLabel'>Lokasi:</b:widget-setting>
+              <b:widget-setting name='showAuthor'>true</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#fafafa</b:widget-setting>
+              <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+              <b:widget-setting name='showLabels'>true</b:widget-setting>
+              <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
+              <b:widget-setting name='showBacklinks'>false</b:widget-setting>
               <b:widget-setting name='showInlineAds'>false</b:widget-setting>
               <b:widget-setting name='showReactions'>false</b:widget-setting>
             </b:widget-settings>
@@ -7556,7 +7575,15 @@ div#searchcontainer.opensearch form {
     <b:section class='iklan-atas' id='iklan-atas' maxwidgets='1' name='Widget Kode Iklan (muncul di atas artikel)' showaddelement='no'>
       <b:widget id='HTML76' locked='true' title='Kode Iklan Atas' type='HTML' version='2' visible='true'>
         <b:widget-settings>
-          <b:widget-setting name='content'/>
+          <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
+     style=&quot;display:block&quot;
+     data-ad-client=&quot;ca-pub-2660611061616393&quot;
+     data-ad-slot=&quot;7388029769&quot;
+     data-ad-format=&quot;horizontal&quot;
+     data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
                 <div class='widget-content kode-iklan-atas'>
@@ -7592,7 +7619,15 @@ div#searchcontainer.opensearch form {
     <b:section class='iklan-bawah' id='iklan-bawah' maxwidgets='1' name='Widget Kode Iklan (muncul tepat di bawah artikel)' showaddelement='no'>
       <b:widget id='HTML79' locked='true' title='Kode Iklan Bawah' type='HTML' version='2' visible='true'>
         <b:widget-settings>
-          <b:widget-setting name='content'/>
+          <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
+     style=&quot;display:block; text-align:center;&quot;
+     data-ad-layout=&quot;in-article&quot;
+     data-ad-format=&quot;fluid&quot;
+     data-ad-client=&quot;ca-pub-2660611061616393&quot;
+     data-ad-slot=&quot;7274653238&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
                 <div class='widget-content kode-iklan-bawah'>
@@ -7660,7 +7695,7 @@ div#searchcontainer.opensearch form {
                 <aside id='sidebar-wrap'>
                     <b:comment><!-- widget sidebar --></b:comment>
                     <b:section class='sidebar-content' id='sidebar-content' name='Sidebar '>
-                      <b:widget id='PopularPosts1' locked='false' title='' type='PopularPosts' visible='true'>
+                      <b:widget id='PopularPosts1' locked='false' title='Postingan Populer' type='PopularPosts' version='2' visible='true'>
                         <b:widget-settings>
                           <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
                           <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -7734,7 +7769,7 @@ div#searchcontainer.opensearch form {
             </div>
         </b:if>
     </b:includable>
-    <b:includable id='popularPostTitle'>
+                        <b:includable id='popularPostTitle'>
         <p class='popular-post-title'>
             <a expr:href='data:post.link ?: data:post.url'>
             <b:eval expr='data:post.title ? data:post.title : data:messages.noTitle'/>
@@ -7743,7 +7778,33 @@ div#searchcontainer.opensearch form {
     </b:includable>
                       </b:widget>
                     </b:section>
-                    <b:section class='sidebar-content-sticky' id='sidebar-content-sticky' name='Sidebar Sticky'/>
+                    <b:section class='sidebar-content-sticky' id='sidebar-content-sticky' name='Sidebar Sticky'>
+                      <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
+                        <b:widget-settings>
+                          <b:widget-setting name='content'>&lt;ins class=&quot;adsbygoogle&quot;
+     style=&quot;display:block&quot;
+     data-ad-client=&quot;ca-pub-2660611061616393&quot;
+     data-ad-slot=&quot;7388029769&quot;
+     data-ad-format=&quot;auto&quot;
+     data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;</b:widget-setting>
+                        </b:widget-settings>
+                        <b:includable id='main'>
+        <b:if cond='data:content'>
+            <b:if cond='data:title'>
+                <div class='normalwidget-title html'>
+                    <h2 class='title'><data:title/></h2>
+                </div>
+            </b:if>
+            <div class='widget-content'>
+                <data:content/>
+            </div>
+        </b:if>
+    </b:includable>
+                      </b:widget>
+                    </b:section>
                 </aside>
             
         </b:if>
@@ -7909,6 +7970,13 @@ head.appendChild(script);
         </b:includable>
   </b:widget>
 </b:section>
+  &lt;script async=&#39;async&#39; src=&#39;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#39;/&gt;
+<script async='async'>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: &quot;ca-pub-2660611061616393&quot;,
+          enable_page_level_ads: true
+     });
+</script>
   <script type='text/x-mathjax-config'>
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]]}
